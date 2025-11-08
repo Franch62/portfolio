@@ -8,7 +8,7 @@ export default function Footer() {
 
         <p className="text-center md:text-right">
           Desenvolvido com ❤️(amor, não lovable) e{" "}
-          <span className="text-fuchsia-500 font-semibold">Next.js</span>
+          <span className="text-accent font-semibold">Next.js</span>
         </p>
       </div>
     </footer>

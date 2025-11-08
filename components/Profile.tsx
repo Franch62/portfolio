@@ -21,7 +21,7 @@ export const Profile = () => {
 
   return (
     <div className="bg-[#1e1e1f] border border-[#2b2b2c] rounded-xl w-[300px] flex flex-col items-center justify-between transition-all duration-300 overflow-hidden">
-      {/* Avatar + Função */}
+
       <div
         className={`flex ${
           isDesktop
@@ -46,7 +46,6 @@ export const Profile = () => {
 
       <hr className="border border-[#2b2b2c] w-[80%] my-4" />
 
-      {/* Links */}
       <AnimatePresence>
         {(expanded || isDesktop) && (
           <motion.div
@@ -62,7 +61,7 @@ export const Profile = () => {
             <a
               href="mailto:28francis.junior@gmail.com"
               target="_blank"
-              className="flex items-center gap-2 hover:text-fuchsia-500 transition-colors duration-200"
+              className="flex items-center gap-2 hover:text-accent transition-colors duration-200"
             >
               <FaEnvelope size={18} />
               <span className="hidden sm:inline">
@@ -72,7 +71,7 @@ export const Profile = () => {
             <a
               href="https://github.com/franch62"
               target="_blank"
-              className="flex items-center gap-2 hover:text-fuchsia-500 transition-colors duration-200"
+              className="flex items-center gap-2 hover:text-accent transition-colors duration-200"
             >
               <FaGithub size={18} />
               <span className="hidden sm:inline">github.com/Franch62</span>
@@ -80,7 +79,7 @@ export const Profile = () => {
             <a
               href="https://linkedin.com/in/franch5"
               target="_blank"
-              className="flex items-center gap-2 hover:text-fuchsia-500 transition-colors duration-200"
+              className="flex items-center gap-2 hover:text-accent transition-colors duration-200"
             >
               <FaLinkedin size={18} />
               <span className="hidden sm:inline">linkedin.com/in/franch5</span>
@@ -89,11 +88,10 @@ export const Profile = () => {
         )}
       </AnimatePresence>
 
-      {/* Botão de expandir no mobile */}
       {!isDesktop && (
         <button
           onClick={() => setExpanded(!expanded)}
-          className="md:hidden text-xs text-zinc-400 mb-4 hover:text-fuchsia-500 transition-colors"
+          className="md:hidden text-xs text-zinc-400 mb-4 hover:text-accent transition-colors"
         >
           {expanded ? "Minimizar ▲" : "Expandir ▼"}
         </button>

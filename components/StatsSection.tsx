@@ -6,7 +6,7 @@ import { PiFlagBanner } from "react-icons/pi";
 const stats = [
   {
     icon: <Laptop className="w-6 h-6 text-white" />,
-    value: "+3 anos",
+    value: "+2 anos",
     label: "de experiência",
   },
   {

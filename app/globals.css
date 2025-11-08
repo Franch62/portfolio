@@ -3,6 +3,27 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --accent-color: #a78bfa;
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+.bg-accent {
+  background-color: var(--accent-color);
+}
+
+.bg-accent-30 {
+  background-color: color-mix(in srgb, var(--accent-color) 20%, transparent);
+}
+
+.bg-accent-50 {
+  background-color: color-mix(in srgb, var(--accent-color) 50%, transparent);
+}
+
+.border-accent {
+  border-color: var(--accent-color);
 }
 
 @theme inline {
