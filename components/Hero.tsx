@@ -14,12 +14,12 @@ export const Hero = () => {
 
     // Caminhos dos arquivos na pasta /public
     const filePath = isEnglish
-      ? "/Francis_RESUME_EN_2025.pdf"
-      : "/Francis_RESUME_PT_2025.pdf";
+      ? "/Francis_Resume_EN_2025.pdf"
+      : "/Francis_Resume_PT_2025.pdf";
 
     const fileName = isEnglish
-      ? "Francis_RESUME_EN_2025.pdf"
-      : "Francis_RESUME_PT_2025.pdf";
+      ? "Francis_Resume_EN_2025.pdf"
+      : "Francis_Resume_PT_2025.pdf";
 
     const link = document.createElement("a");
     link.href = filePath;
