@@ -8,7 +8,7 @@ export default function Header() {
         {/* Nome / Marca */}
         <Link
           href="/"
-          className="text-accent text-xl font-semibold tracking-wide select-none hover:opacity-80 transition-opacity"
+          className="text-accent text-base lg:text-xl font-semibold tracking-wide select-none hover:opacity-80 transition-opacity"
         >
           {"<Francis />"}
         </Link>
