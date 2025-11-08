@@ -20,8 +20,7 @@ export const Profile = () => {
   }, []);
 
   return (
-    <div className="bg-[#1e1e1f] border border-[#2b2b2c] rounded-xl w-[300px] flex flex-col items-center justify-between transition-all duration-300 overflow-hidden">
-
+    <div className="bg-[#1e1e1f] border border-[#2b2b2c] rounded-xl w-[300px] flex flex-col items-center justify-between transition-all duration-300">
       <div
         className={`flex ${
           isDesktop
@@ -53,33 +52,58 @@ export const Profile = () => {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className={`
+            className="
               flex flex-wrap justify-center gap-4 mb-6 text-zinc-400 text-sm
               md:flex-col md:items-center md:text-left md:gap-3
-            `}
+              overflow-hidden
+            "
           >
             <a
               href="mailto:28francis.junior@gmail.com"
               target="_blank"
-              className="flex items-center gap-2 hover:text-accent transition-colors duration-200"
+              rel="noreferrer"
+              className="
+                flex items-center gap-2
+                text-zinc-400
+                hover:text-[var(--accent-color)]
+                transition-colors duration-200
+                hover:scale-105
+                transform
+              "
             >
               <FaEnvelope size={18} />
-              <span className="hidden sm:inline">
-                28francis.junior@gmail.com
-              </span>
+              <span className="hidden sm:inline">28francis.junior@gmail.com</span>
             </a>
+
             <a
               href="https://github.com/franch62"
               target="_blank"
-              className="flex items-center gap-2 hover:text-accent transition-colors duration-200"
+              rel="noreferrer"
+              className="
+                flex items-center gap-2
+                text-zinc-400
+                hover:text-[var(--accent-color)]
+                transition-colors duration-200
+                hover:scale-105
+                transform
+              "
             >
               <FaGithub size={18} />
               <span className="hidden sm:inline">github.com/Franch62</span>
             </a>
+
             <a
               href="https://linkedin.com/in/franch5"
               target="_blank"
-              className="flex items-center gap-2 hover:text-accent transition-colors duration-200"
+              rel="noreferrer"
+              className="
+                flex items-center gap-2
+                text-zinc-400
+                hover:text-[var(--accent-color)]
+                transition-colors duration-200
+                hover:scale-105
+                transform
+              "
             >
               <FaLinkedin size={18} />
               <span className="hidden sm:inline">linkedin.com/in/franch5</span>
@@ -91,7 +115,7 @@ export const Profile = () => {
       {!isDesktop && (
         <button
           onClick={() => setExpanded(!expanded)}
-          className="md:hidden text-xs text-zinc-400 mb-4 hover:text-accent transition-colors"
+          className="md:hidden text-xs text-zinc-400 mb-4 hover:text-[var(--accent-color)] transition-colors"
         >
           {expanded ? "Minimizar ▲" : "Expandir ▼"}
         </button>
