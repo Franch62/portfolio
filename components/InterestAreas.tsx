@@ -121,7 +121,7 @@ export const InterestAreas = () => {
               className="border border-zinc-700 p-4 rounded-xl hover:border-[var(--accent-color)]  transition-colors flex flex-col"
             >
               <div className="flex items-center gap-2 mb-2">
-                <BsQrCode  size={18} />
+                <BsQrCode size={18} />
                 <h3 className="font-semibold text-zinc-100">QRaftHive</h3>
               </div>
               <p className="text-sm text-zinc-400 mb-3">
@@ -382,8 +382,8 @@ export const InterestAreas = () => {
                 </p>
               </div>
               <a
-              href="/ef_set_certificate.pdf"
-              download="EF_SET_Certificate.pdf"
+                href="/EF_SET_Certificate.pdf"
+                download="EF_SET_Certificate.pdf"
                 className="mt-2 sm:mt-0 px-4 py-1  text-accent rounded-full text-sm border border-[var(--accent-color)]
     bg-[color-mix(in_srgb,var(--accent-color)_20%,transparent)]
     hover:bg-[color-mix(in_srgb,var(--accent-color)_40%,transparent)]
