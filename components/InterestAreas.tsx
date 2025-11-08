@@ -378,17 +378,19 @@ export const InterestAreas = () => {
               <div>
                 <h3 className="font-semibold text-zinc-100">Inglês</h3>
                 <p className="text-sm text-zinc-400">
-                  Nível B1 — Intermediário
+                  English: Intermediate (B1) — assessed by EF SET
                 </p>
               </div>
-              <button
+              <a
+              href="/ef_set_certificate.pdf"
+              download="EF_SET_Certificate.pdf"
                 className="mt-2 sm:mt-0 px-4 py-1  text-accent rounded-full text-sm border border-[var(--accent-color)]
     bg-[color-mix(in_srgb,var(--accent-color)_20%,transparent)]
     hover:bg-[color-mix(in_srgb,var(--accent-color)_40%,transparent)]
     hover:cursor-pointer transition-colors"
               >
                 Visualizar certificado
-              </button>
+              </a>
             </div>
           </div>
         )}
