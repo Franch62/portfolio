@@ -4,7 +4,6 @@ import { Experience } from "@/components/Experience";
 import Footer from "@/components/Footer";
 import HalftoneBackground from "@/components/HalftoneBackground";
 import { Hero } from "@/components/Hero";
-import ProjectsSection from "@/components/Projects";
 
 export default function Home() {
   return (

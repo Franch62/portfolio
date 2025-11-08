@@ -6,6 +6,7 @@ import { GiWeightLiftingUp, GiBurningPassion } from "react-icons/gi";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { FaTree } from "react-icons/fa6";
 import { TechIcons } from "./TechIcons";
+import { BsQrCode } from "react-icons/bs";
 
 export const InterestAreas = () => {
   const [activeTab, setActiveTab] = useState("design");
@@ -34,7 +35,6 @@ export const InterestAreas = () => {
         Áreas de Interesse
       </h2>
       <TechIcons />
-
 
       {/* Tabs */}
       <div className="flex flex-wrap justify-center gap-3 mb-8">
@@ -121,7 +121,7 @@ export const InterestAreas = () => {
               className="border border-zinc-700 p-4 rounded-xl hover:border-[var(--accent-color)]  transition-colors flex flex-col"
             >
               <div className="flex items-center gap-2 mb-2">
-                <FaGithub size={18} />
+                <BsQrCode  size={18} />
                 <h3 className="font-semibold text-zinc-100">QRaftHive</h3>
               </div>
               <p className="text-sm text-zinc-400 mb-3">
@@ -181,12 +181,12 @@ export const InterestAreas = () => {
             >
               <div className="flex items-center gap-2 mb-2">
                 <FaTree size={20} />
-                <h3 className="font-semibold text-zinc-100">
-                  EcoSwap
-                </h3>
+                <h3 className="font-semibold text-zinc-100">EcoSwap</h3>
               </div>
               <p className="text-sm text-zinc-400 mb-3">
-                Landing page feita no intuito de estudar e aprimorar minhas habilidades com css(um dos primeiros projetos, baseado em templates no figma)
+                Landing page feita no intuito de estudar e aprimorar minhas
+                habilidades com css(um dos primeiros projetos, baseado em
+                templates no figma)
               </p>
               <div className="flex flex-wrap gap-2 mt-auto">
                 <span className="text-xs bg-zinc-800 px-2 py-1 rounded-md">
@@ -197,8 +197,6 @@ export const InterestAreas = () => {
                 </span>
               </div>
             </a>
-
-           
           </div>
         )}
 
@@ -297,11 +295,14 @@ export const InterestAreas = () => {
             >
               <div className="flex items-center gap-2 mb-2">
                 <FaGithub size={18} />
-                <h3 className="font-semibold text-zinc-100">Project Delivery</h3>
+                <h3 className="font-semibold text-zinc-100">
+                  Project Delivery
+                </h3>
               </div>
               <p className="text-sm text-zinc-400 mb-3">
                 Um dos primeiros projetos feito durante a faculdade com a
-                colaboração de colegas, é o frontend que integra API feita por mim
+                colaboração de colegas, é o frontend que integra API feita por
+                mim
               </p>
               <div className="flex flex-wrap gap-2 mt-auto">
                 <span className="text-xs bg-zinc-800 px-2 py-1 rounded-md">
@@ -324,10 +325,14 @@ export const InterestAreas = () => {
             >
               <div className="flex items-center gap-2 mb-2">
                 <FaGithub size={18} />
-                <h3 className="font-semibold text-zinc-100">API Projec delivery</h3>
+                <h3 className="font-semibold text-zinc-100">
+                  API Projec delivery
+                </h3>
               </div>
               <p className="text-sm text-zinc-400 mb-3">
-                Backend de um dos primeiros projetos feito durante a faculdade, uma API REST de produtos               </p>
+                Backend de um dos primeiros projetos feito durante a faculdade,
+                uma API REST de produtos{" "}
+              </p>
               <div className="flex flex-wrap gap-2 mt-auto">
                 <span className="text-xs bg-zinc-800 px-2 py-1 rounded-md">
                   node
@@ -352,7 +357,8 @@ export const InterestAreas = () => {
                 <h3 className="font-semibold text-zinc-100">URL Shortener</h3>
               </div>
               <p className="text-sm text-zinc-400 mb-3">
-                API feita baseada em um video do canal do grande Leonardo Zamariola
+                API feita baseada em um video do canal do grande Leonardo
+                Zamariola
               </p>
               <div className="flex flex-wrap gap-2 mt-auto">
                 <span className="text-xs bg-zinc-800 px-2 py-1 rounded-md">
@@ -375,10 +381,12 @@ export const InterestAreas = () => {
                   Nível B1 — Intermediário
                 </p>
               </div>
-              <button className="mt-2 sm:mt-0 px-4 py-1  text-accent rounded-full text-sm border border-[var(--accent-color)]
+              <button
+                className="mt-2 sm:mt-0 px-4 py-1  text-accent rounded-full text-sm border border-[var(--accent-color)]
     bg-[color-mix(in_srgb,var(--accent-color)_20%,transparent)]
     hover:bg-[color-mix(in_srgb,var(--accent-color)_40%,transparent)]
-    hover:cursor-pointer transition-colors">
+    hover:cursor-pointer transition-colors"
+              >
                 Visualizar certificado
               </button>
             </div>
