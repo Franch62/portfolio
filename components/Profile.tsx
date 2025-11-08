@@ -21,6 +21,7 @@ export const Profile = () => {
 
   return (
     <div className="bg-[#1e1e1f] border border-[#2b2b2c] rounded-xl w-[300px] flex flex-col items-center justify-between transition-all duration-300 overflow-hidden">
+      {/* Avatar + Função */}
       <div
         className={`flex ${
           isDesktop
@@ -45,6 +46,7 @@ export const Profile = () => {
 
       <hr className="border border-[#2b2b2c] w-[80%] my-4" />
 
+      {/* Links */}
       <AnimatePresence>
         {(expanded || isDesktop) && (
           <motion.div
@@ -52,7 +54,10 @@ export const Profile = () => {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="flex flex-col gap-4 mb-6 text-zinc-400 text-sm"
+            className={`
+              flex flex-wrap justify-center gap-4 mb-6 text-zinc-400 text-sm
+              md:flex-col md:items-center md:text-left md:gap-3
+            `}
           >
             <a
               href="mailto:28francis.junior@gmail.com"
@@ -84,6 +89,7 @@ export const Profile = () => {
         )}
       </AnimatePresence>
 
+      {/* Botão de expandir no mobile */}
       {!isDesktop && (
         <button
           onClick={() => setExpanded(!expanded)}
