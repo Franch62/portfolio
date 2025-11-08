@@ -146,7 +146,7 @@ export const InterestAreas = () => {
 
             {/* Card 4 */}
             <a
-              href="https://www.behance.net/"
+              href="https://passive-solutions.vercel.app/"
               target="_blank"
               className="border border-zinc-700 p-4 rounded-xl hover:border-[var(--accent-color)]  transition-colors flex flex-col items-start"
             >
