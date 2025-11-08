@@ -23,7 +23,7 @@ const stats = [
 
 export default function StatsSection() {
   return (
-    <section className="py-4 mx-[-2rem] text-zinc-100 w-full">
+    <section className="py-4 lg:mx-[-2rem] text-zinc-100 w-full">
       <div className="mx-auto p-0 ">
         <div
           className="

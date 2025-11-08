@@ -13,7 +13,7 @@ export default function Home() {
         <section className="flex flex-col items-center justify-center w-full px-6 py-16 md:px-20  text-zinc-100">
           <div className="flex flex-col w-full max-w-5xl">
             {/* Título */}
-            <h1 className="text-4xl font-bold mb-8 border-b border-zinc-800 pb-4 tracking-tight">
+            <h1 className="text-4xl font-bold mb-8  border-zinc-800 pb-4 tracking-tight">
               Experiência
             </h1>
 
