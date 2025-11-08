@@ -17,7 +17,7 @@ export default function Header() {
           <Link
             href="/interest-areas"
             className="
-    text-white text-lg font-semibold tracking-wide select-none
+    text-white text-base lg:text-lg  font-semibold tracking-wide select-none
     relative
     after:content-['']
     after:absolute after:left-0 after:-bottom-1
