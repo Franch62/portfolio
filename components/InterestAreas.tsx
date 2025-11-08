@@ -116,7 +116,7 @@ export const InterestAreas = () => {
 
             {/* Card 3 */}
             <a
-              href="https://github.com/franch62/QRafthive"
+              href="https://qrafthive.vercel.app/"
               target="_blank"
               className="border border-zinc-700 p-4 rounded-xl hover:border-[var(--accent-color)]  transition-colors flex flex-col"
             >
