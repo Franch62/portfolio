@@ -39,9 +39,8 @@ export const Hero = () => {
           </h1>
 
           <p className="mt-4 text-zinc-400 text-[1rem] leading-relaxed max-w-lg">
-            Desenvolvedor de Software, especialista em resolução de problemas e
-            planejamento criativo e estrutural de projetos voltados a Web e
-            Mobile
+            Desenvolvedor de Software, focado em resolução de problemas e
+            planejamento criativo e estrutural de projetos voltados a Web
           </p>
 
           <button
